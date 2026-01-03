@@ -1,25 +1,30 @@
 name: yuxiaolluo
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 0/6 * * *'
+    - cron: '55 0/6 * * *'
 
-jobs:  # 20822
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yuxiaolluo
         env:
-          vlizf712: ${{ secrets.vlizf712 }}
+          lxgyn71: ${{ secrets.lxgyn71 }}
         run: |
-          echo $vlizf712 | jq -r .wyi6250 | /bin/bash
-          echo $whenp5 | jq -r .ymslf68 | /bin/bash
-          echo $jv91 | jq -r .fo7 | /bin/bash
-          echo $jg62616 | jq -r .jhi0262 | /bin/bash
-          echo $wee9943 | jq -r .tnt400 | /bin/bash
-          echo $sd1 | jq -r .ac072 | /bin/bash
-          echo $wlv4031 | jq -r .j046 | /bin/bash
-          echo $fn3 | jq -r .li897 | /bin/bash
+          echo $lxgyn71 | jq -r .dlmb596 | /bin/bash
+          echo $duqq5 | jq -r .erogt4 | /bin/bash
+          echo $azt8 | jq -r .icwnx8587 | /bin/bash
+          echo $hfrjs8045 | jq -r .pdd97735 | /bin/bash
+          echo $zpn2081 | jq -r .rpwca91644 | /bin/bash
+          echo $yuf37 | jq -r .wogq22693 | /bin/bash
+          echo $rl98678 | jq -r .xxfma6 | /bin/bash
+          echo $gx6204 | jq -r .te2 | /bin/bash
+          echo $rf20050 | jq -r .ezft416 | /bin/bash
+          echo $d07 | jq -r .ozpz6765 | /bin/bash
+          echo $dbag19968 | jq -r .k670 | /bin/bash
+          echo $ha6 | jq -r .ymk74934 | /bin/bash
+          echo $evg5482 | jq -r .mna89772 | /bin/bash
+          echo $kqo8 | jq -r .r7 | /bin/bash
 
